@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awosem-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 48;
+      }
+      h2{
+        float: left;
+
+      }
+      p{
+        font-size: 12px;
+      }
+      #konsol{
+          height: 660px;
+          width: 850px;
+          float: inherit;
+          align-items: center;
+          margin-top: 100px;
+          margin-left:200px;
+          
+      }
+      #footer{
+        width: 1700px;
+        height: 200px;
+        margin-top:50px;
+        margin-bottom:130px;
+        margin-left:100px;
+      }
+     
+    </style>
+
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-backgraund">
+    <!--Header Section-->
+    <header class="bg-title py-3 text-text font-noto ">
+      <!--Header Conteiner-->
+      <div class="container flex items-center justify-between space-x-6">
+        <!--Logo-->
+        <a href="#" class="text-2xl font-noto text-text ml-16">Pterodactyl</a>
+        <div  class="flex items-center space-x-6 pr-32">
+          <!--Search Area-->
+          
+            
+              <div><button><i class="fas fa-search"></i></button></div>
+              <div><button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-stack"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"
+                  />
+                  <path
+                    d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"
+                  />
+                </svg>
+              </button></div>
+            <div><button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-gear"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"
+                  />
+                  <path
+                    d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"
+                  />
+                </svg>
+              </button></div>
+              
+              
+            </div>
+          
+        </div>
+      </div>
+    </header>
+    <section class="flex py-3 items-center justify-between bg-titles">
+      <!--Menu-->
+      <nav class="flex justify-between flex-1 ml-36">
+        <div class="container flex items-center text-menu space-x-8">
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Console
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Files
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Databases
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Schedules
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Users
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Backups
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Network
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Startup
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Settings
+          </a>
+          <a
+            href="#"
+            class="hover:text-text bg-transparent hover:border-b border-line font-noto transition duration-500"
+          >
+            Activity
+          </a>
+          <button class="hover:text-text font-noto transition duration-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-box-arrow-up-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </section>
+    <section class="pr-32 pt-32 flex justify-end float-right">
+      <div class="container place-content-end  h-56 grid grid-cols-1 gap-4 content-evenly flex justify-end pt-64">
+        <div><div  class="container pb-10 pl-0 pr-0  items-center flex flex-row box-border h-16 w-64   pt-10 pr-4 justify-between text-menu space-x-2 text-align:center ">
+          <div class="static"><button type="button" class=" container pt-10 pr-0 justify-between items-center space-x-6 text-text"><a href="#" class="inline-scale rounded bg-line py-2 px-4 hover:text-menu hover:bg-blue-400 cursor-pointer transition duration-500" >Start</a></button></div>
+          <div class="static" ><button type="button" class=" container pt-10  justify-between items-center space-x-6 text-text "><a href="#" class="initial-scale rounded bg-restart py-2 px-6 hover:text-menu hover:bg-restart-400 cursor-pointer transition duration-500" >Restart</a></button></div>
+          <div class="static"><button type="button" class=" container pt-10  pr-0 justify-between items-center space-x-6 text-text"><a href="#" class="initial-scale rounded bg-stop py-2 px-6  hover:text-menu hover:bg-red-500 cursor-pointer transition duration-500" > Stop</a></button></div>
+            
+    </div></div>
+        <div><div class="container pb-10 rounded-md items-center flex flex-row box-border h-16 w-64 p-4  pt-10 pr-4 justify-between text-menu bg-restart space-x-8">
+          <div class="relative h-10 w-10 h-11 w-11 rounded-md bg-backgraund"><svg  xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-wifi " viewBox="0 0 16 16">
+            <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z"/>
+            <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+          </svg>
+        <div class="ml-16 absolute top-0 w-64">
+          <h3 class="font-noto text-menu">Adress</h3>
+          <h2 class="font-noto text-text"><b>panel:1201</b></h2>
+        </div>
+        </div>
+      </div></div>
+        <div><div class="container pb-10 rounded-md items-center flex flex-row box-border h-16 w-64 p-4  pt-10 pr-4 justify-between text-menu bg-restart space-x-8  ">
+          <div class="relative h-10 w-10 h-11 w-11 rounded-md bg-backgraund"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+          </svg>
+        <div class="ml-16 absolute top-0 w-64">
+          <h3 class="font-noto text-menu">Uptime</h3>
+          <h2 class="font-noto text-text"><b>5d 0h 15m</b></h2>
+        </div>
+        </div></div></div>
+        <div><div class="container pb-10 rounded-md items-center flex flex-row box-border h-16 w-64 p-4  pt-10 pr-4 justify-between text-menu bg-restart space-x-8 ">
+          <div class="relative h-10 w-10 h-11 w-11 rounded-md bg-backgraund"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+            <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+            <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+          </svg>
+        <div class="ml-16 absolute top-0 w-32">
+          <h3 class="font-noto text-menu">CPU Load</h3>
+          <h2 class="font-noto text-text"><b>16.43%</b></h2><p class="font-noto text-menu">/100%</p>
+        </div>
+        </div></div>
+        </div>
+
+        <div><div class="container pb-10 rounded-md items-center flex flex-row box-border h-16 w-64 p-4  pt-10 pr-4 justify-between text-menu bg-restart space-x-8  ">
+          <div class="relative h-10 w-10 h-11 w-11 rounded-md bg-backgraund"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-memory" viewBox="0 0 16 16">
+            <path d="M1 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.586a1 1 0 0 0 .707-.293l.353-.353a.5.5 0 0 1 .708 0l.353.353a1 1 0 0 0 .707.293H15a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H1Zm.5 1h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5Zm5 0h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5Zm4.5.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-4ZM2 10v2H1v-2h1Zm2 0v2H3v-2h1Zm2 0v2H5v-2h1Zm3 0v2H8v-2h1Zm2 0v2h-1v-2h1Zm2 0v2h-1v-2h1Zm2 0v2h-1v-2h1Z"/>
+          </svg>
+        <div class="ml-16 absolute top-0 w-32">
+          <h3 class="font-noto text-menu">Memory</h3>
+          <h2 class="font-noto text-text"><b>1.31 GiB</b></h2><p class="font-noto text-menu ">/1.95GiB</p>
+        </div>
+        </div></div>
+       </div>
+       <div><div class="container pb-10 rounded-md items-center flex flex-row box-border h-16 w-64 p-4  pt-10 pr-4 justify-between space-x-8 text-menu bg-restart space-x-8 ">
+        <div class="relative h-10 w-10 h-11 w-11 rounded-md bg-backgraund"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-hdd-fill" viewBox="0 0 16 16">
+          <path d="M0 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-1zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM.91 7.204A2.993 2.993 0 0 1 2 7h12c.384 0 .752.072 1.09.204l-1.867-3.422A1.5 1.5 0 0 0 11.906 3H4.094a1.5 1.5 0 0 0-1.317.782L.91 7.204z"/>
+        </svg>
+      <div class="ml-16 absolute top-0 w-32">
+        <h3 class="font-noto text-menu">Disk</h3>
+        <h2 class="font-noto text-text"><b>178.95 MiB</b></h2><p class="font-noto text-menu text-xs font-light">/9.77GiB</p>
+      </div>
+      </div></div>
+    </div>
+    <div><div class="container pb-10 rounded-md items-center flex flex-row box-border h-16 w-64 p-4 pt-10 pr-4 justify-between text-menu bg-restart space-x-8  ">
+      <div class="relative h-10 w-10 h-11 w-11 rounded-md bg-backgraund"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
+        <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/>
+      </svg>
+    <div class="ml-16 absolute top-0 w-32">
+      <h3 class="font-noto text-menu">Network(Inbound)</h3>
+      <h2 class="font-noto text-text"><b>628.89 KiB</b></h2>
+    </div>
+    </div></div></div>
+    <div><div class="container pb-10 rounded-md items-center flex flex-row box-border h-16 w-64 p-4  pt-10 pr-4 justify-between text-menu bg-restart space-x-8 ">
+      <div class="relative h-10 w-10 h-11 w-11 rounded-md bg-backgraund"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="currentColor" class=" bi bi-cloud-arrow-up-fill" viewBox="0 0 16 16">
+        <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2z"/>
+      </svg>
+    <div class="ml-16 absolute top-0 w-32">
+      <h3 class="font-noto text-menu">Network(Outbound)</h3>
+      <h2 class="font-noto text-text"><b>705.82</b></h2>
+    </div>
+    </div></div></div>
+
+      </div>
+    </section>
+        <section>
+          <div id="konsol" class="relative h-32 w-32 rounded container flex bg-black float-left w-16 h-16 item-center space-x-6">
+            <div class="absolute inset-x-0 bottom-0 h-8 bg-title rounded float-button"><p class="inline-block align-middle text-text font-noto"><b> >> </b><span class="text-restart font-noto">Type a command...</span></p>
+              
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div id="footer" class="static container items-center flex flex-row h-16 w-64 pt-10 pr-4 justify-between space-x-2 text-align:center">
+          <div id="footer" class="inline-block bg-restart mr-2"></div>
+          <div id="footer" class="inline-block bg-restart mx-2"></div>
+          <div id="footer" class="inline-block bg-restart ml-2"></div>
+          </div>
+          
+        </footer>
+    
+  </body>
+</html>
